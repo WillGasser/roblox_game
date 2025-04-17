@@ -19,6 +19,32 @@
         }
       }
     },
+    "StarterPack": {
+      "Musket": {
+        "$className": "Tool",
+        "$properties": {
+          "CanBeDropped": false,
+          "RequiresHandle": true,
+          "ToolTip": "Flintlock Musket"
+        },
+        "Handle": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              0.5,
+              0.5,
+              3
+            ],
+            "Material": "Wood",
+            "Color": [
+              0.3,
+              0.2,
+              0.1
+            ]
+          }
+        }
+      }
+    },
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
